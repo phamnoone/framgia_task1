@@ -19,12 +19,32 @@ Project demo framgia
 Int:id        |
 Sring:name    | 
 
+```sql 
+TABLE users (
+    id integer NOT NULL,
+    name character varying(255),
+    PRIMARY KEY (id)
+);
+```
+
+
    orders     | 
 ------------- |
 Int:id        |
 Sring:name    | 
 Int:price     | 
 Int:userId    | 
+``` sql
+CREATE TABLE orders (
+    id integer NOT NULL,
+    userid integer,
+    name character varying(255),
+    price integer,
+     PRIMARY KEY (id),
+     FOREIGN KEY (id) REFERENCES users(id)
+);
+```
+
 Hai bảng có quan hệ 1-n
  ##Các file code chính##
 +  [Users Class](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.java)
@@ -33,5 +53,12 @@ Hai bảng có quan hệ 1-n
 +   [Orders hibernate mapping config ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/orders/Orders.hbm.xml)
 +  [Hibernate config file ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/config/hibernate.cfg.xml)
 +  [User view controller file ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/controller/HomeController.java) 
- ##Giao diện hiển thị ##
-Markup : ![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
+ 
+##Giao diện hiển thị ##
++ Danh sách user 
+   ![picture alt](http://i.imgur.com/oe7RH7G.png " Danh sách user ")
++ Detail
+   ![picture alt](http://i.imgur.com/hC0ccGb.png " Detail ")   
++ Edit 
+   ![picture alt](http://i.imgur.com/ZwpYN9D.png " Edit  ")
+
