@@ -25,9 +25,11 @@ Int:id        |
 Sring:name    | 
 Int:price     | 
 Int:userId    | 
-
-+ ##Model##
-+  [Users Link](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.java)
-+  [Orders Link](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/orders/Orders.java)
-
-
+Hai bảng có quan hệ 1-n
++ ##Code##
++  [Users Class](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.java)
+   [Users hibernate mapping config ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.hbm.xml)
++  [Orders Class](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/orders/Orders.java)
++   [Orders hibernate mapping config ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/orders/Orders.hbm.xml)
++  [Hibernate config file ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/config/hibernate.cfg.xml)
++  [user view controller file ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/controller/HomeController.java)  
