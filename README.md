@@ -12,7 +12,7 @@ Project demo framgia
    + Order list thì cũng tương tự.
   
 #Thực hiện #
-+ Database
++ ##Database##
 
    users      | 
 ------------- |
@@ -26,6 +26,8 @@ Sring:name    |
 Int:price     | 
 Int:userId    | 
 
-+ Model Users, Orders
++ ##Model##
++  [Users Link](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.java)
++  [Orders Link](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/orders/Orders.java)
 
 
