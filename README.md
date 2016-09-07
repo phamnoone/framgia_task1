@@ -26,10 +26,12 @@ Sring:name    |
 Int:price     | 
 Int:userId    | 
 Hai bảng có quan hệ 1-n
-+ ##Code##
+ ##Các file code chính##
 +  [Users Class](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.java)
-   [Users hibernate mapping config ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.hbm.xml)
+ +  [Users hibernate mapping config ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/users/Users.hbm.xml)
 +  [Orders Class](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/orders/Orders.java)
 +   [Orders hibernate mapping config ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/model/orders/Orders.hbm.xml)
 +  [Hibernate config file ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/config/hibernate.cfg.xml)
-+  [user view controller file ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/controller/HomeController.java)  
++  [User view controller file ](https://github.com/phamnoone/framgia_task1/blob/master/src/java/controller/HomeController.java) 
+ ##Giao diện hiển thị ##
+Markup : ![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
