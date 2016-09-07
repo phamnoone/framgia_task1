@@ -14,10 +14,10 @@
         <title>Home page</title>
     </head>
     <body>
-        
+
         <h1><a href="<%=request.getContextPath()%>/userslist.html">${greeting}</a></h1>
         <a href="<%=request.getContextPath()%>/index.html">index</a>s
-            <form:form method="GET" action="/task1/userslist/search.html">
+        <form:form method="GET" action="/task1/userslist/search.html">
             <input name="key" type="text" value=""/>
             <input type="submit" class="btn btn-default" value="Seach"/>
             <button type="button" class="btn btn-default" data-toggle="modal" data-target="#addModal" >Add</button>
