@@ -123,14 +123,10 @@ public class OrdersDAO {
         }
     }
 
-    public static void main(String[] args) {
-
-        OrdersDAO ordersDAO = new OrdersDAO();
-//        ordersDAO.listOrders();
-//        for (Orders orders : ordersDAO.listOrders()) {
-//            System.out.println(orders.getName());
-//        }
-//        ordersDAO.removeOrders(4);
-
-    }
+//    public static void main(String[] args) {
+//
+//        OrdersDAO ordersDAO = new OrdersDAO();
+////        ordersDAO.removeOrders(4);
+//
+//    }
 }

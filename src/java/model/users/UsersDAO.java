@@ -121,19 +121,10 @@ public class UsersDAO {
     }
 
     // TEST func
-    public static void main(String[] args) {
-        UsersDAO user = new UsersDAO();
-//                    System.out.println("thanh");
-//                    for (Users tem : user.findAll("2")) {
-//                        System.out.println(tem.getName());
-//                    }
-//                    System.out.println("end");
-        ////        user.updateUsers(new Users(113, "thanh4"));
-        //        // user.addUsers(new Users(111, "thanh3"));
-        ////        System.out.println(user.getUsersById(1));
-        //
-
-        user.removeUsers(1);
-    }
+//    public static void main(String[] args) {
+//        UsersDAO user = new UsersDAO();
+//
+//        user.removeUsers(1);
+//    }
 
 }

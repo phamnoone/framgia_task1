@@ -58,21 +58,21 @@ public class HomeController {
 
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     public String delete(@PathVariable("id") int orderId, ModelMap mm) {
-        if (!usersDemo.removeUsers(orderId)){
-//            mm.addAttribute("error", "remove user error. please check orders of user")
+        if (!usersDemo.removeUsers(orderId)) {
+            // xu li logic delete fail
         }
         return "redirect:/userslist.html";
     }
 
-     @RequestMapping(value = "/userslist/search", method = RequestMethod.GET)
-    public ModelAndView findALL( String key,  Model model) {
+    @RequestMapping(value = "/userslist/search", method = RequestMethod.GET)
+    public ModelAndView findALL(String key, Model model) {
         List<Users> listUsers;
         if (key.equals("")) {
-             listUsers= usersDemo.listUsers();
+            listUsers = usersDemo.listUsers();
         } else {
-             listUsers= usersDemo.findAll(key);
+            listUsers = usersDemo.findAll(key);
         }
-        
+
         model.addAttribute("greeting", "Users list");
         model.addAttribute("listUsers", listUsers);
         model.addAttribute("size", listUsers.size());

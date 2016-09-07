@@ -14,13 +14,9 @@ import model.users.Users;
 public class Orders {
 
     private int id;
-
     private Users user;
-
     private String name;
-
     private int price;
-
     public Users getUser() {
         return user;
     }
@@ -28,7 +24,6 @@ public class Orders {
     public void setUser(Users user) {
         this.user = user;
     }
-            
 
     public int getId() {
         return id;
